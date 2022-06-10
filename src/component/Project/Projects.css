@@ -8,3 +8,14 @@
         gap: 1.5rem;
         margin-top: 55px;
 }
+.col{
+    margin-top: 20px;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.card-img{
+    border-radius: 1rem;
+}

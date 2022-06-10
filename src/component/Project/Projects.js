@@ -2,6 +2,12 @@ import { Button } from 'bootstrap';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Projects.css';
+import web1 from '../../Access/web1.PNG';
+import web2 from '../../Access/web2.PNG';
+import web3 from '../../Access/web3.PNG';
+import web4 from '../../Access/web4.PNG';
+import web5 from '../../Access/web5.PNG';
+import web6 from '../../Access/web6.PNG';
 
 
 const Projects = () => {
@@ -15,78 +21,78 @@ const Projects = () => {
                 <div className='row'>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img className='card-img' variant="top" src={web1} /><br/>
              <Card.Body>
-                 <Card.Title>Pro Paint</Card.Title>
+                <h2>Pro Paint</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
                <a href='https://pro-paint.firebaseapp.com/' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img variant="top" className='card-img' src={web2} /><br/>
              <Card.Body>
-                 <Card.Title>Toy House</Card.Title>
+                 <h2>Toy House</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
             <a href='https://toy-house-b1a2d.web.app' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img variant="top" className='card-img' src={web3} /><br/>
              <Card.Body>
-                 <Card.Title>Influencer Hub</Card.Title>
+                 <h2>Influencer Hub</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
             <a href='https://kmnayem.github.io/influencer-gear-main/' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img variant="top" className='card-img' src={web4} /><br/>
              <Card.Body>
-                 <Card.Title>Panda Shop</Card.Title>
+                 <h2>Panda Shop</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
             <a href='https://kmnayem.github.io/panda-bootstrap/' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img variant="top" className='card-img' src={web5} /><br/>
              <Card.Body>
-                 <Card.Title>Horror</Card.Title>
+                 <h2>Horror</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
             <a href='https://kmnayem.github.io/horror/' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
                <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src="holder.js/100px180" />
+             <Card.Img variant="top" className='card-img' src={web6} /><br/>
              <Card.Body>
-                 <Card.Title>Convention Hall</Card.Title>
+                 <h2>Convention Hall</h2>
             <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
-            </Card.Text>
+            </Card.Text><br/>
             <a href='https://kms-convention-center.netlify.app/' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
