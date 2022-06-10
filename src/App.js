@@ -8,9 +8,9 @@ import Footer from './component/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div >
+       <Nav></Nav>
       <Header></Header>
-      <Nav></Nav>
       <About></About>
       <Projects></Projects>
       <Contact></Contact>

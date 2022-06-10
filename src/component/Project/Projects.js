@@ -20,7 +20,7 @@ const Projects = () => {
             <div className='container'>
                 <div className='row'>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img className='card-img' variant="top" src={web1} /><br/>
              <Card.Body>
                 <h2>Pro Paint</h2>
@@ -28,12 +28,12 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-               <a href='https://pro-paint.firebaseapp.com/' className='btn btn-primary '>Live Link</a> 
+               <a href='https://pro-paint.firebaseapp.com/'  target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img variant="top" className='card-img' src={web2} /><br/>
              <Card.Body>
                  <h2>Toy House</h2>
@@ -41,12 +41,12 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-            <a href='https://toy-house-b1a2d.web.app' className='btn btn-primary '>Live Link</a> 
+            <a href='https://toy-house-b1a2d.web.app'  target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img variant="top" className='card-img' src={web3} /><br/>
              <Card.Body>
                  <h2>Influencer Hub</h2>
@@ -54,12 +54,12 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-            <a href='https://kmnayem.github.io/influencer-gear-main/' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/influencer-gear-main/'  target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img variant="top" className='card-img' src={web4} /><br/>
              <Card.Body>
                  <h2>Panda Shop</h2>
@@ -67,12 +67,12 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-            <a href='https://kmnayem.github.io/panda-bootstrap/' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/panda-bootstrap/'  target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img variant="top" className='card-img' src={web5} /><br/>
              <Card.Body>
                  <h2>Horror</h2>
@@ -80,12 +80,12 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-            <a href='https://kmnayem.github.io/horror/' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/horror/'  target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>
                <div className='col'>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='card-box'>
              <Card.Img variant="top" className='card-img' src={web6} /><br/>
              <Card.Body>
                  <h2>Convention Hall</h2>
@@ -93,7 +93,7 @@ const Projects = () => {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
             </Card.Text><br/>
-            <a href='https://kms-convention-center.netlify.app/' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kms-convention-center.netlify.app/' target='_blank' className='btn btn-primary '>Live Link</a> 
             </Card.Body>
             </Card>
                </div>

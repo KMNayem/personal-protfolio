@@ -1,21 +1,32 @@
-import React, { useState } from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import icon from '../../Access/icon.png';
 import './Nav.css';
-import {AiOutlineHome} from 'react-icons/ai';
-import {AiOutlineUser} from 'react-icons/ai';
-import {AiOutlineProject} from 'react-icons/ai';
-import {AiOutlineMessage} from 'react-icons/ai';
 
 
-const Nav = () => {
-    const [ activeNav, setActiveNav ] = useState('#')
-    return (
-        <nav>
-            <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
-            <a href='#about'  onClick={() => setActiveNav('#about')}  className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
-            <a href='#project' onClick={() => setActiveNav('#project')} className={activeNav === '#project' ? 'active' : ''}><AiOutlineProject/></a>
-            <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage/></a>
-        </nav>
-    );
-};
+function NavScrollExample() {
+  return (
+    <Navbar expand="lg">
+      <Container fluid>
+        
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="m-auto my-2 my-lg-0 text-white"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link className='text-white' href="#home">Home</Nav.Link>
+            <Nav.Link className='text-white' href="#about">About</Nav.Link>
+            <Nav.Link className='text-white' href="#project">Project</Nav.Link>
+            <Nav.Link className='text-white' href="#contact">Contact</Nav.Link>
+          
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
-export default Nav;
+export default NavScrollExample;

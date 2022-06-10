@@ -1,20 +1,22 @@
-header{
-    height: 100vh;
-    padding-top: 5rem;
-    overflow: hidden;
-}
-
 .header__container{
-    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    margin-top: 10rem;
+    left: 30px;
+}
+.me-pic{
     height: 100%;
-    position: relative;
+    padding: 10%;
 }
 
 .cta{
     margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    
 }
 
 .header__socials{
@@ -23,7 +25,7 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    padding-left: 20px;
     bottom: 3rem;
 }
 
@@ -34,8 +36,8 @@ header{
     background: var(--color-primary);
 }
 
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
+.me-pic{
+    /* background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 40rem;
     position: absolute;
@@ -43,7 +45,8 @@ header{
     margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 1.5rem 2rem  ;
+    padding: 1.5rem 2rem  ; */
+    bottom: 10%;
 }
 
 .scroll__down{
@@ -64,12 +67,13 @@ header{
 }
 
 @media screen  and (max-width: 600px) {
-    header{
-        height: 100vh;
+    
+    .me{
+            width: 65%;
+          margin: 0 auto 3rem;
     }
-    .header__socials,
-    .scroll__down{
-        display: none;
+    .header__container{
+        text-align: center;
     }
     
 }
