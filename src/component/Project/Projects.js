@@ -25,10 +25,14 @@ const Projects = () => {
              <Card.Body>
                 <h2>Pro Paint</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically a Paint roller base.
+             A full-fledged paint roller website.
+            Service are provided separately for all type of products
             </Card.Text><br/>
-               <a href='https://pro-paint.firebaseapp.com/'  target='_blank' className='btn btn-primary '>Live Link</a> 
+               <div >
+               <a href='https://pro-paint.firebaseapp.com/'  target='_blank' className='btn btn-primary  m-2'>Live Link</a> 
+               <a href='https://pro-paint.firebaseapp.com/'  target='_blank' className='btn btn-primary '>Details</a> 
+               </div>
             </Card.Body>
             </Card>
                </div>
@@ -38,10 +42,13 @@ const Projects = () => {
              <Card.Body>
                  <h2>Toy House</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically for kids.
+             This project deals with adding and removing product.
+            It’s also a responsive Website.
+
             </Card.Text><br/>
             <a href='https://toy-house-b1a2d.web.app'  target='_blank' className='btn btn-primary '>Live Link</a> 
+            <a href='https://toy-house-b1a2d.web.app'  target='_blank' className='btn btn-primary  m-2'>Details</a>
             </Card.Body>
             </Card>
                </div>
@@ -51,10 +58,12 @@ const Projects = () => {
              <Card.Body>
                  <h2>Influencer Hub</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically an influence base.
+             It’s just a frontend project for influence product
+            It’s also a responsive Website
             </Card.Text><br/>
             <a href='https://kmnayem.github.io/influencer-gear-main/'  target='_blank' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/influencer-gear-main/'  target='_blank' className='btn btn-primary  m-2'>Details</a>
             </Card.Body>
             </Card>
                </div>
@@ -64,10 +73,12 @@ const Projects = () => {
              <Card.Body>
                  <h2>Panda Shop</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically an gadge base.
+             It’s just a frontend project selling product
+            It’s also a responsive Website.
             </Card.Text><br/>
-            <a href='https://kmnayem.github.io/panda-bootstrap/'  target='_blank' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/panda-bootstrap/'  target='_blank' className='btn btn-primary '>Live Link</a>
+            <a href='https://kmnayem.github.io/panda-bootstrap/'  target='_blank' className='btn btn-primary  m-2'>Details</a> 
             </Card.Body>
             </Card>
                </div>
@@ -77,10 +88,12 @@ const Projects = () => {
              <Card.Body>
                  <h2>Horror</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically an Horror base.
+             It’s just a frontend project Hallowen party product
+            It’s also a responsive Website
             </Card.Text><br/>
             <a href='https://kmnayem.github.io/horror/'  target='_blank' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kmnayem.github.io/horror/'  target='_blank' className='btn btn-primary  m-2'>Details</a>
             </Card.Body>
             </Card>
                </div>
@@ -90,10 +103,12 @@ const Projects = () => {
              <Card.Body>
                  <h2>Convention Hall</h2>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+            This project is basically an convention base.
+             It’s just a frontend project for marry or any kind of party booking.
+            It’s also a responsive Website
             </Card.Text><br/>
-            <a href='https://kms-convention-center.netlify.app/' target='_blank' className='btn btn-primary '>Live Link</a> 
+            <a href='https://kms-convention-center.netlify.app/' target='_blank' className='btn btn-primary '>Live Link</a>
+            <a href='https://kms-convention-center.netlify.app/'  target='_blank' className='btn btn-primary  m-2'>Details</a> 
             </Card.Body>
             </Card>
                </div>
