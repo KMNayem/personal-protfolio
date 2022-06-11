@@ -20,7 +20,7 @@ function NavScrollExample() {
             <Nav.Link className='text-white' href="#home">Home</Nav.Link>
             <Nav.Link className='text-white' href="#about">About</Nav.Link>
             <Nav.Link className='text-white' href="#project">Project</Nav.Link>
-            <Nav.Link className='text-white' href="/blogs">Blogs</Nav.Link>
+            <Nav.Link className='text-white' href="#blogs">Blogs</Nav.Link>      
             <Nav.Link className='text-white' href="#contact">Contact</Nav.Link>
           
           </Nav>
